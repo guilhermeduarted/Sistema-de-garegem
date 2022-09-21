@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>estacionamento guilherme</title>
+    <link rel="stylesheet" href="css.css">
+    
+</head onload="mostraarea()">
+<body>
+    
+    <main>
+        <form accept="#" id="formulario">
+            <h1>cadastre seu veiculo</h1>
+            
+            <label for="modelocarro">MODELO:</label>
+            <input type="text" id="modelodecarro"name=""placeholder="incira seu veiculo">
+
+            <lebel for="placadecarro">PLACA:</lebel>
+            <input type="text" id="placadecarro"name=""placeholder="incira sua placa">
+
+            <label for="nomecandutor">NOME:</label>
+            <input type="text"id="nomecondutor"name=""placeholder="incira seu nome">
+            
+
+            <input type="submit"id="enviar"placeholder="enviar">
+
+        </form>
+        <div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Modelo</th>
+                        <th>Placa</th>
+                        <th>horas</th>
+                        <th>nome</th>
+                        <th>finalizar</th>
+                    </tr>
+                </thead>
+                <tbody id="resultados"></tbody>
+            </table>
+        </div>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+    <script src="cod.js"></script>
+    <script src="bootstrap.min.js"></script>
+</body>
+</html>
